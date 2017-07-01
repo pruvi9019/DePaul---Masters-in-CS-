@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Items>
+
+    <Item Id="1">
+        <ItemName>ABC123</ItemName>
+        <ItemPrice>550</ItemPrice>
+    </Item>
+
+    <Item Id="2">
+        <ItemName>CR2032</ItemName>
+        <ItemPrice>240</ItemPrice>
+    </Item>
+
+    <Item Id="3">
+        <ItemName>CT1928</ItemName>
+        <ItemPrice>910</ItemPrice>
+    </Item>
+
+    <Item Id="4">
+        <ItemName>E24li</ItemName>
+        <ItemPrice>10400</ItemPrice>
+    </Item>
+
+    <Item Id="5">
+        <ItemName>JBL3100</ItemName>
+        <ItemPrice>180</ItemPrice>
+    </Item>
+
+    <Item Id="6">
+        <ItemName>MM35P</ItemName>
+        <ItemPrice>1950</ItemPrice>
+    </Item>
+
+    <Item Id="7">
+        <ItemName>PL132-C</ItemName>
+        <ItemPrice>440</ItemPrice>
+    </Item>
+
+    <Item Id="8">
+        <ItemName>PU238</ItemName>
+        <ItemPrice>2200</ItemPrice>
+    </Item>
+
+    <Item Id="9">
+        <ItemName>RL123A</ItemName>
+        <ItemPrice>360</ItemPrice>
+    </Item>
+
+    <Item Id="10">
+        <ItemName>RTF110</ItemName>
+        <ItemPrice>715</ItemPrice>
+    </Item>
+
+    <Item Id="11">
+        <ItemName>RX100-3</ItemName>
+        <ItemPrice>642</ItemPrice>
+    </Item>
+
+    <Item Id="12">
+        <ItemName>SN-241-L</ItemName>
+        <ItemPrice>620</ItemPrice>
+    </Item>
+
+    <Item Id="13">
+        <ItemName>SR71-D</ItemName>
+        <ItemPrice>1600</ItemPrice>
+    </Item>
+
+    <Item Id="14">
+        <ItemName>XLK200B</ItemName>
+        <ItemPrice>820</ItemPrice>
+    </Item>
+
+    <Item Id="15">
+        <ItemName>XTP202</ItemName>
+        <ItemPrice>345</ItemPrice>
+    </Item>
+
+    <Item Id="16">
+        <ItemName>ZTF109</ItemName>
+        <ItemPrice>1100</ItemPrice>
+    </Item>
+
+</Items>

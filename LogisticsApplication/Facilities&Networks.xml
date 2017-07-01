@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FacilityandNetwork>
+
+    <Store Id="1">
+        <Name>Seattle, WA</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Fargo, ND</Facility>
+            <Miles>1426</Miles>
+        </Link>
+        <Link>
+            <Facility>San Francisco, CA</Facility>
+            <Miles>808</Miles>
+        </Link>
+        <Item>
+            <ItemName>ABC123</ItemName>
+            <ItemQuantity>45</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>JBL3100</ItemName>
+            <ItemQuantity>52</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>PL132-C</ItemName>
+            <ItemQuantity>54</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>PU238</ItemName>
+            <ItemQuantity>60</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="2">
+        <Name>San Francisco, CA</Name>
+        <Rate>12</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Seattle, WA</Facility>
+            <Miles>808</Miles>
+        </Link>
+        <Link>
+            <Facility>Denver, CO</Facility>
+            <Miles>1249</Miles>
+        </Link>
+        <Link>
+            <Facility>Los Angeles, CA</Facility>
+            <Miles>382</Miles>
+        </Link>
+        <Item>
+            <ItemName>RL123A</ItemName>
+            <ItemQuantity>40</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XLK200B</ItemName>
+            <ItemQuantity>8</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SR71-D</ItemName>
+            <ItemQuantity>81</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CT1928</ItemName>
+            <ItemQuantity>46</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="3">
+        <Name>Los Angeles, CA</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>San Francisco, CA</Facility>
+            <Miles>382</Miles>
+        </Link>
+        <Link>
+            <Facility>Phoenix, AZ</Facility>
+            <Miles>372</Miles>
+        </Link>
+        <Item>
+            <ItemName>RX100-3</ItemName>
+            <ItemQuantity>57</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>JBL3100</ItemName>
+            <ItemQuantity>60</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>E24li</ItemName>
+            <ItemQuantity>44</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XTP202</ItemName>
+            <ItemQuantity>32</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="4">
+        <Name>Phoenix, AZ</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Los Angeles, CA</Facility>
+            <Miles>372</Miles>
+        </Link>
+        <Link>
+            <Facility>Santa Fe, NM</Facility>
+            <Miles>480</Miles>
+        </Link>
+        <Item>
+            <ItemName>RX100-3</ItemName>
+            <ItemQuantity>18</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SR71-D</ItemName>
+            <ItemQuantity>55</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SN-241-L</ItemName>
+            <ItemQuantity>22</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>ZTF109</ItemName>
+            <ItemQuantity>54</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="5">
+        <Name>Denver, CO</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>San Francisco, CA</Facility>
+            <Miles>1249</Miles>
+        </Link>
+        <Link>
+            <Facility>Santa Fe, NM</Facility>
+            <Miles>392</Miles>
+        </Link>
+        <Link>
+            <Facility>Fargo, ND</Facility>
+            <Miles>889</Miles>
+        </Link>
+        <Link>
+            <Facility>St. Louis, MO</Facility>
+            <Miles>851</Miles>
+        </Link>
+        <Item>
+            <ItemName>ABC123</ItemName>
+            <ItemQuantity>80</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>RL123A</ItemName>
+            <ItemQuantity>110</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>RTF110</ItemName>
+            <ItemQuantity>100</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="6">
+        <Name>Santa Fe, NM</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Phoenix, AZ</Facility>
+            <Miles>480</Miles>
+        </Link>
+        <Link>
+            <Facility>Denver, CO</Facility>
+            <Miles>392</Miles>
+        </Link>
+        <Link>
+            <Facility>St. Louis, MO</Facility>
+            <Miles>1032</Miles>
+        </Link>
+        <Link>
+            <Facility>Austin, TX</Facility>
+            <Miles>688</Miles>
+        </Link>
+        <Item>
+            <ItemName>RX100-3</ItemName>
+            <ItemQuantity>144</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CR2032</ItemName>
+            <ItemQuantity>280</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="7">
+        <Name>Fargo, ND</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Seattle, WA</Facility>
+            <Miles>1426</Miles>
+        </Link>
+        <Link>
+            <Facility>Denver, CO</Facility>
+            <Miles>889</Miles>
+        </Link>
+        <Link>
+            <Facility>Chicago, IL</Facility>
+            <Miles>643</Miles>
+        </Link>
+        <Item>
+            <ItemName>ABC123</ItemName>
+            <ItemQuantity>25</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>JBL3100</ItemName>
+            <ItemQuantity>32</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XLK200B</ItemName>
+            <ItemQuantity>82</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="8">
+        <Name>Austin, TX</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Santa Fe, NM</Facility>
+            <Miles>688</Miles>
+        </Link>
+        <Link>
+            <Facility>St. Louis, MO</Facility>
+            <Miles>825</Miles>
+        </Link>
+        <Link>
+            <Facility>New Orleans, LA</Facility>
+            <Miles>512</Miles>
+        </Link>
+        <Item>
+            <ItemName>RL123A</ItemName>
+            <ItemQuantity>66</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>RX100-3</ItemName>
+            <ItemQuantity>35</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SN-241-L</ItemName>
+            <ItemQuantity>35</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="9">
+        <Name>St. Louis, MO</Name>
+        <Rate>12</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Chicago, IL</Facility>
+            <Miles>297</Miles>
+        </Link>
+        <Link>
+            <Facility>Nashville, TN</Facility>
+            <Miles>309</Miles>
+        </Link>
+        <Link>
+            <Facility>Austin, TX</Facility>
+            <Miles>825</Miles>
+        </Link>
+        <Link>
+            <Facility>Santa Fe, NM</Facility>
+            <Miles>1032</Miles>
+        </Link>
+        <Link>
+            <Facility>Denver, CO</Facility>
+            <Miles>851</Miles>
+        </Link>
+        <Item>
+            <ItemName>ABC123</ItemName>
+            <ItemQuantity>70</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SR71-D</ItemName>
+            <ItemQuantity>45</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>PU238</ItemName>
+            <ItemQuantity>82</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="10">
+        <Name>Chicago, IL</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Fargo, ND</Facility>
+            <Miles>643</Miles>
+        </Link>
+        <Link>
+            <Facility>St. Louis, MO</Facility>
+            <Miles>297</Miles>
+        </Link>
+        <Link>
+            <Facility>New York City, NY</Facility>
+            <Miles>790</Miles>
+        </Link>
+        <Link>
+            <Facility>Detroit, MI</Facility>
+            <Miles>282</Miles>
+        </Link>
+        <Item>
+            <ItemName>ABC123</ItemName>
+            <ItemQuantity>60</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>E24li</ItemName>
+            <ItemQuantity>64</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CT1928</ItemName>
+            <ItemQuantity>20</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>RTF110</ItemName>
+            <ItemQuantity>110</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XTP202</ItemName>
+            <ItemQuantity>20</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="11">
+        <Name>New Orleans, LA</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Austin, TX</Facility>
+            <Miles>512</Miles>
+        </Link>
+        <Link>
+            <Facility>Nashville, TN</Facility>
+            <Miles>532</Miles>
+        </Link>
+        <Link>
+            <Facility>Atlanta, GA</Facility>
+            <Miles>469</Miles>
+        </Link>
+        <Link>
+            <Facility>Miami, FL</Facility>
+            <Miles>864</Miles>
+        </Link>
+        <Item>
+            <ItemName>MM35P</ItemName>
+            <ItemQuantity>100</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>PU238</ItemName>
+            <ItemQuantity>49</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>ZTF109</ItemName>
+            <ItemQuantity>120</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="12">
+        <Name>Nashville, TN</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>St. Louis, MO</Facility>
+            <Miles>309</Miles>
+        </Link>
+        <Link>
+            <Facility>New Orleans, LA</Facility>
+            <Miles>532</Miles>
+        </Link>
+        <Link>
+            <Facility>Norfolk, VA</Facility>
+            <Miles>706</Miles>
+        </Link>
+        <Item>
+            <ItemName>RX100-3</ItemName>
+            <ItemQuantity>78</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XLK200B</ItemName>
+            <ItemQuantity>250</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CR2032</ItemName>
+            <ItemQuantity>366</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SN-241-L</ItemName>
+            <ItemQuantity>16</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="13">
+        <Name>Detroit, MI</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Chicago, IL</Facility>
+            <Miles>282</Miles>
+        </Link>
+        <Link>
+            <Facility>New York City, NY</Facility>
+            <Miles>614</Miles>
+        </Link>
+        <Link>
+            <Facility>Boston, MA</Facility>
+            <Miles>719</Miles>
+        </Link>
+        <Item>
+            <ItemName>JBL3100</ItemName>
+            <ItemQuantity>117</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SR71-D</ItemName>
+            <ItemQuantity>8</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CT1928</ItemName>
+            <ItemQuantity>72</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="14">
+        <Name>Boston, MA</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Detroit, MI</Facility>
+            <Miles>719</Miles>
+        </Link>
+        <Link>
+            <Facility>New York City, NY</Facility>
+            <Miles>215</Miles>
+        </Link>
+        <Item>
+            <ItemName>MM35P</ItemName>
+            <ItemQuantity>47</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>PL132-C</ItemName>
+            <ItemQuantity>83</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CT1928</ItemName>
+            <ItemQuantity>65</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="15">
+        <Name>New York City, NY</Name>
+        <Rate>14</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Boston, MA</Facility>
+            <Miles>215</Miles>
+        </Link>
+        <Link>
+            <Facility>Detroit, MI</Facility>
+            <Miles>614</Miles>
+        </Link>
+        <Link>
+            <Facility>Chicago, IL</Facility>
+            <Miles>790</Miles>
+        </Link>
+        <Link>
+            <Facility>Norfolk, VA</Facility>
+            <Miles>363</Miles>
+        </Link>
+        <Item>
+            <ItemName>RL123A</ItemName>
+            <ItemQuantity>12</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>CR2032</ItemName>
+            <ItemQuantity>132</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>E24li</ItemName>
+            <ItemQuantity>72</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>ZTF109</ItemName>
+            <ItemQuantity>28</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="16">
+        <Name>Norfolk, VA</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>New York City, NY</Facility>
+            <Miles>363</Miles>
+        </Link>
+        <Link>
+            <Facility>Nashville, TN</Facility>
+            <Miles>706</Miles>
+        </Link>
+        <Link>
+            <Facility>Atlanta, GA</Facility>
+            <Miles>566</Miles>
+        </Link>
+        <Item>
+            <ItemName>MM35P</ItemName>
+            <ItemQuantity>66</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>RL123A</ItemName>
+            <ItemQuantity>50</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XLK200B</ItemName>
+            <ItemQuantity>14</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="17">
+        <Name>Atlanta, GA</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Norfolk, VA</Facility>
+            <Miles>566</Miles>
+        </Link>
+        <Link>
+            <Facility>New Orleans, LA</Facility>
+            <Miles>469</Miles>
+        </Link>
+        <Link>
+            <Facility>Miami, FL</Facility>
+            <Miles>663</Miles>
+        </Link>
+        <Item>
+            <ItemName>RX100-3</ItemName>
+            <ItemQuantity>90</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>E24li</ItemName>
+            <ItemQuantity>32</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>PU238</ItemName>
+            <ItemQuantity>120</ItemQuantity>
+        </Item>
+    </Store>
+
+    <Store Id="18">
+        <Name>Miami, FL</Name>
+        <Rate>12</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <Facility>Atlanta, GA</Facility>
+            <Miles>663</Miles>
+        </Link>
+        <Link>
+            <Facility>New Orleans, LA</Facility>
+            <Miles>864</Miles>
+        </Link>
+        <Item>
+            <ItemName>MM35P</ItemName>
+            <ItemQuantity>16</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>JBL3100</ItemName>
+            <ItemQuantity>44</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SR71-D</ItemName>
+            <ItemQuantity>15</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>SN-241-L</ItemName>
+            <ItemQuantity>28</ItemQuantity>
+        </Item>
+        <Item>
+            <ItemName>XTP202</ItemName>
+            <ItemQuantity>88</ItemQuantity>
+        </Item>
+    </Store>
+
+</FacilityandNetwork>
